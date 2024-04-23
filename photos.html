@@ -16,163 +16,169 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar bg-warning navbar-expand-sm ">
-            <div class="container-fluid justify-content-center">
-                <a class="navbar-brand" href="./index.html"><img src="./images/Pikachu-favicon.png" height="50px"
-                        alt="Pikachu"></a>
-                <img class="navbar-brand d-flex d-sm-none" src="./images/Pikachu-name-logo.png" height="50px"
-                    alt="Pikachu logo name">
-                <button class="navbar-toggler justify-content-center" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav text-center">
-                        <li class="nav-item">
-                            <a class="nav-link fs-5 fw-bold" aria-current="page" href="./jeux.html">Jeux</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-5 fw-bold" href="./evolutions.html">Évolutions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-5 fw-bold active" href="./photos.html">Photos</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <section class="about">
-            <header class="d-flex flex-column align-items-center justify-content-center m-2">
-                <h1 class="fw-bold">Mes plus belles photos</h1>
-            </header>
-            <div class="description bg-warning">
-                <p class="m-2 p-3">Pokem ipsum dolor sit amet Raikou Lampent Monferno Sandile Sand-Attack Bibarel. Gold
-                    Tauros Nidoqueen Pokemon, it's you and me Plusle Gothita Gengar.</p>
-            </div>
-        </section>
-
-        <section class="d-block d-md-none">
-            <div id="carouselPhotos" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item p-5 active">
-                        <img src="./images/Pikachu-Rocker.png" class="d-block w-100 img-fluid" alt="Pikachu Rocker">
-                        <div class="carousel-caption">
-                            <h5 class="text-dark bg-warning p-1">Pikachu Rocker</h5>
-                        </div>
-                    </div>
-                    <div class="carousel-item p-5">
-                        <img src="./images/Pikachu-Catcher.png" class="d-block w-100 img-fluid" alt="Pikachu Catcher">
-                        <div class="carousel-caption">
-                            <h5 class="text-dark bg-warning p-1">Pikachu Catcheur</h5>
-                        </div>
-                    </div>
-                    <div class="carousel-item p-5">
-                        <img src="./images/Pikachu-Star.png" class="d-block w-100 img-fluid" alt="Pikachu Star">
-                        <div class="carousel-caption">
-                            <h5 class="text-dark bg-warning p-1">Pikachu Rocker</h5>
-                        </div>
-                    </div>
-                    <div class="carousel-item p-5">
-                        <img src="./images/Pikachu-Lady.png" class="d-block w-100 img-fluid" alt="Pikachu Lady">
-                        <div class="carousel-caption">
-                            <h5 class="text-dark bg-warning p-1">Pikachu Catcheur</h5>
-                        </div>
-                    </div>
-                    <div class="carousel-item p-5">
-                        <img src="./images/Pikachu-Doctor.png" class="d-block w-100 img-fluid" alt="Pikachu Doctor">
-                        <div class="carousel-caption">
-                            <h5 class="text-dark bg-warning p-1">Pikachu Rocker</h5>
-                        </div>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar bg-warning navbar-expand-sm ">
+                <div class="container-fluid justify-content-center">
+                    <a class="navbar-brand" href="./index.html"><img src="./images/Pikachu-favicon.png" height="50px"
+                            alt="Pikachu"></a>
+                    <img class="navbar-brand d-flex d-sm-none" src="./images/Pikachu-name-logo.png" height="50px"
+                        alt="Pikachu logo name">
+                    <button class="navbar-toggler justify-content-center" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav text-center">
+                            <li class="nav-item">
+                                <a class="nav-link fs-5 fw-bold" aria-current="page" href="./jeux.html">Jeux</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5 fw-bold" href="./evolutions.html">Évolutions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5 fw-bold active" href="./photos.html">Photos</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPhotos" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselPhotos" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-            
-        </section>
+            </nav>
+        </header>
+        <main class="content">
+            <section class="about">
+                <header class="d-flex flex-column align-items-center justify-content-center m-2">
+                    <h1 class="fw-bold">Mes plus belles photos</h1>
+                </header>
+                <div class="description bg-warning">
+                    <p class="text-center m-2 p-3">Pokem ipsum dolor sit amet Raikou Lampent Monferno Sandile
+                        Sand-Attack Bibarel. Gold
+                        Tauros Nidoqueen Pokemon, it's you and me Plusle Gothita Gengar.</p>
+                </div>
+            </section>
 
-        <section class="container d-none d-md-block my-3">
-            <div class="d-flex justify-content-center m-2">
-                <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
-                    <img src="./images/Pikachu-Rocker.png" alt="Pikachu Rocker" height="150px">
-                    <header class="text-center fs-2 fw-bold">Pikachu Rocker</header>
-                </article>
-                <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
-                    <img src="./images/Pikachu-Catcher.png" alt="Pikachu Catcher" height="150px">
-                    <header class="text-center fs-2 fw-bold">Pikachu Catcheur</header>
-                </article>
-                <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
-                    <img src="./images/Pikachu-Star.png" alt="Pikachu Star" height="150px">
-                    <header class="text-center fs-2 fw-bold">Pikachu Star</header>
-                </article>
-                <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
-                    <img src="./images/Pikachu-Lady.png" alt="Pikachu Lady" height="150px">
-                    <header class="text-center fs-2 fw-bold">Lady Pikachu</header>
-                </article>
-                <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
-                    <img src="./images/Pikachu-Doctor.png" alt="Pikachu Doctor" height="150px">
-                    <header class="text-center fs-2 fw-bold">Docteur Pikachu</header>
-                </article>
-            </div>
-            <div class="d-flex justify-content-center m-2">
-                <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
-                    <img src="./images/Pikachu-Star.png" alt="Pikachu Star" height="150px">
-                    <header class="text-center fs-2 fw-bold">Pikachu Star</header>
-                </article>
-                <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
-                    <img src="./images/Pikachu-Doctor.png" alt="Pikachu Doctor" height="150px">
-                    <header class="text-center fs-2 fw-bold">Docteur Pikachu</header>
-                </article>
-                <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
-                    <img src="./images/Pikachu-Lady.png" alt="Pikachu Lady" height="150px">
-                    <header class="text-center fs-2 fw-bold">Lady Pikachu</header>
-                </article>
-                <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
-                    <img src="./images/Pikachu-Rocker.png" alt="Pikachu Rocker" height="150px">
-                    <header class="text-center fs-2 fw-bold">Pikachu Rocker</header>
-                </article>
-                <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
-                    <img src="./images/Pikachu-Catcher.png" alt="Pikachu Catcher" height="150px">
-                    <header class="text-center fs-2 fw-bold">Pikachu Catcheur</header>
-                </article>
-            </div>
-            <div class="d-flex justify-content-center m-2">
-                <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
-                    <img src="./images/Pikachu-Rocker.png" alt="Pikachu Rocker" height="150px">
-                    <header class="text-center fs-2 fw-bold">Pikachu Rocker</header>
-                </article>
-                <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
-                    <img src="./images/Pikachu-Catcher.png" alt="Pikachu Catcher" height="150px">
-                    <header class="text-center fs-2 fw-bold">Pikachu Catcheur</header>
-                </article>
-                <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
-                    <img src="./images/Pikachu-Star.png" alt="Pikachu Star" height="150px">
-                    <header class="text-center fs-2 fw-bold">Pikachu Star</header>
-                </article>
-                <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
-                    <img src="./images/Pikachu-Lady.png" alt="Pikachu Lady" height="150px">
-                    <header class="text-center fs-2 fw-bold">Lady Pikachu</header>
-                </article>
-                <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
-                    <img src="./images/Pikachu-Doctor.png" alt="Pikachu Doctor" height="150px">
-                    <header class="text-center fs-2 fw-bold">Docteur Pikachu</header>
-                </article>
-            </div>
-        </section>
-    </main>
-    <footer class="bg-warning">
-        <p class="text-center m-2 p-2">Pika, pika ! Made with <span>❤️</span> by Pierre Morin !</p>
-    </footer>
+            <section class="d-block d-md-none">
+                <div id="carouselPhotos" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item p-5 active">
+                            <img src="./images/Pikachu-Rocker.png" class="d-block w-100 img-fluid" alt="Pikachu Rocker">
+                            <div class="carousel-caption">
+                                <h5 class="text-dark bg-warning p-1">Pikachu Rocker</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item p-5">
+                            <img src="./images/Pikachu-Catcher.png" class="d-block w-100 img-fluid"
+                                alt="Pikachu Catcher">
+                            <div class="carousel-caption">
+                                <h5 class="text-dark bg-warning p-1">Pikachu Catcheur</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item p-5">
+                            <img src="./images/Pikachu-Star.png" class="d-block w-100 img-fluid" alt="Pikachu Star">
+                            <div class="carousel-caption">
+                                <h5 class="text-dark bg-warning p-1">Pikachu Rocker</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item p-5">
+                            <img src="./images/Pikachu-Lady.png" class="d-block w-100 img-fluid" alt="Pikachu Lady">
+                            <div class="carousel-caption">
+                                <h5 class="text-dark bg-warning p-1">Pikachu Catcheur</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item p-5">
+                            <img src="./images/Pikachu-Doctor.png" class="d-block w-100 img-fluid" alt="Pikachu Doctor">
+                            <div class="carousel-caption">
+                                <h5 class="text-dark bg-warning p-1">Pikachu Rocker</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPhotos"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPhotos"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </section>
+
+            <section class="container d-none d-md-block my-3">
+                <div class="d-flex justify-content-center m-2">
+                    <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
+                        <img src="./images/Pikachu-Rocker.png" alt="Pikachu Rocker" height="150px">
+                        <header class="text-center fs-2 fw-bold">Pikachu Rocker</header>
+                    </article>
+                    <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
+                        <img src="./images/Pikachu-Catcher.png" alt="Pikachu Catcher" height="150px">
+                        <header class="text-center fs-2 fw-bold">Pikachu Catcheur</header>
+                    </article>
+                    <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
+                        <img src="./images/Pikachu-Star.png" alt="Pikachu Star" height="150px">
+                        <header class="text-center fs-2 fw-bold">Pikachu Star</header>
+                    </article>
+                    <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
+                        <img src="./images/Pikachu-Lady.png" alt="Pikachu Lady" height="150px">
+                        <header class="text-center fs-2 fw-bold">Lady Pikachu</header>
+                    </article>
+                    <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
+                        <img src="./images/Pikachu-Doctor.png" alt="Pikachu Doctor" height="150px">
+                        <header class="text-center fs-2 fw-bold">Docteur Pikachu</header>
+                    </article>
+                </div>
+                <div class="d-flex justify-content-center m-2">
+                    <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
+                        <img src="./images/Pikachu-Star.png" alt="Pikachu Star" height="150px">
+                        <header class="text-center fs-2 fw-bold">Pikachu Star</header>
+                    </article>
+                    <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
+                        <img src="./images/Pikachu-Doctor.png" alt="Pikachu Doctor" height="150px">
+                        <header class="text-center fs-2 fw-bold">Docteur Pikachu</header>
+                    </article>
+                    <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
+                        <img src="./images/Pikachu-Lady.png" alt="Pikachu Lady" height="150px">
+                        <header class="text-center fs-2 fw-bold">Lady Pikachu</header>
+                    </article>
+                    <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
+                        <img src="./images/Pikachu-Rocker.png" alt="Pikachu Rocker" height="150px">
+                        <header class="text-center fs-2 fw-bold">Pikachu Rocker</header>
+                    </article>
+                    <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
+                        <img src="./images/Pikachu-Catcher.png" alt="Pikachu Catcher" height="150px">
+                        <header class="text-center fs-2 fw-bold">Pikachu Catcheur</header>
+                    </article>
+                </div>
+                <div class="d-flex justify-content-center m-2">
+                    <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
+                        <img src="./images/Pikachu-Rocker.png" alt="Pikachu Rocker" height="150px">
+                        <header class="text-center fs-2 fw-bold">Pikachu Rocker</header>
+                    </article>
+                    <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
+                        <img src="./images/Pikachu-Catcher.png" alt="Pikachu Catcher" height="150px">
+                        <header class="text-center fs-2 fw-bold">Pikachu Catcheur</header>
+                    </article>
+                    <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
+                        <img src="./images/Pikachu-Star.png" alt="Pikachu Star" height="150px">
+                        <header class="text-center fs-2 fw-bold">Pikachu Star</header>
+                    </article>
+                    <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
+                        <img src="./images/Pikachu-Lady.png" alt="Pikachu Lady" height="150px">
+                        <header class="text-center fs-2 fw-bold">Lady Pikachu</header>
+                    </article>
+                    <article class="d-flex flex-column justify-content-center align-items-center m-2 p-2 gap-2">
+                        <img src="./images/Pikachu-Doctor.png" alt="Pikachu Doctor" height="150px">
+                        <header class="text-center fs-2 fw-bold">Docteur Pikachu</header>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer class="footer bg-warning">
+            <p class="text-center m-2 p-2">Pika, pika ! Made with <span>❤️</span> by Pierre Morin !</p>
+        </footer>
+    </div>
 </body>
 
 </html>
