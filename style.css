@@ -13,3 +13,9 @@ body {
 span {
     color: red;
 }
+
+/* Styles pour les flèches du carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ffc107;
+}
